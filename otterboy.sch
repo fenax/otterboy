@@ -1,0 +1,489 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:WeMos_D1_mini U1
+U 1 1 5F12E611
+P 5100 2850
+F 0 "U1" H 5100 1961 50  0000 C CNN
+F 1 "WeMos_D1_mini" H 5100 1870 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 5100 1700 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 3250 1700 50  0001 C CNN
+	1    5100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5F130C3A
+P 7000 2800
+F 0 "SW3" H 7000 3085 50  0000 C CNN
+F 1 "SW_Push_Dual" H 7000 2994 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7000 3000 50  0001 C CNN
+F 3 "~" H 7000 3000 50  0001 C CNN
+	1    7000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F13564C
+P 4550 1250
+F 0 "J1" H 4630 1242 50  0000 L CNN
+F 1 "Conn_01x02" H 4630 1151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4550 1250 50  0001 C CNN
+F 3 "~" H 4550 1250 50  0001 C CNN
+	1    4550 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D3
+U 1 1 5F139392
+P 7000 2300
+F 0 "D3" H 7000 2517 50  0000 C CNN
+F 1 "1N4001" H 7000 2426 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 7000 2125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F14974A
+P 6000 4000
+F 0 "SW1" H 6000 4285 50  0000 C CNN
+F 1 "SW_Push_Dual" H 6000 4194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D1
+U 1 1 5F149750
+P 6000 3550
+F 0 "D1" H 6000 3767 50  0000 C CNN
+F 1 "1N4001" H 6000 3676 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6000 3375 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5F14A23E
+P 6900 5050
+F 0 "SW2" H 6900 5335 50  0000 C CNN
+F 1 "SW_Push_Dual" H 6900 5244 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 6900 5250 50  0001 C CNN
+F 3 "~" H 6900 5250 50  0001 C CNN
+	1    6900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D2
+U 1 1 5F14A244
+P 6900 4600
+F 0 "D2" H 6900 4817 50  0000 C CNN
+F 1 "1N4001" H 6900 4726 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 6900 4425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6900 4600 50  0001 C CNN
+	1    6900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5F14AF9E
+P 7950 3900
+F 0 "SW4" H 7950 4185 50  0000 C CNN
+F 1 "SW_Push_Dual" H 7950 4094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 7950 4100 50  0001 C CNN
+F 3 "~" H 7950 4100 50  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D4
+U 1 1 5F14AFA4
+P 7950 3450
+F 0 "D4" H 7950 3667 50  0000 C CNN
+F 1 "1N4001" H 7950 3576 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 7950 3275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5F14B8A4
+P 8800 2600
+F 0 "SW5" H 8800 2885 50  0000 C CNN
+F 1 "SW_Push_Dual" H 8800 2794 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 8800 2800 50  0001 C CNN
+F 3 "~" H 8800 2800 50  0001 C CNN
+	1    8800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D5
+U 1 1 5F14B8AA
+P 8800 2150
+F 0 "D5" H 8800 2367 50  0000 C CNN
+F 1 "1N4001" H 8800 2276 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 8800 1975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5F14C40E
+P 9950 2550
+F 0 "SW7" H 9950 2835 50  0000 C CNN
+F 1 "SW_Push_Dual" H 9950 2744 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 9950 2750 50  0001 C CNN
+F 3 "~" H 9950 2750 50  0001 C CNN
+	1    9950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D7
+U 1 1 5F14C414
+P 9950 2100
+F 0 "D7" H 9950 2317 50  0000 C CNN
+F 1 "1N4001" H 9950 2226 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 9950 1925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9950 2100 50  0001 C CNN
+	1    9950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5F14CEFC
+P 8900 4450
+F 0 "SW6" H 8900 4735 50  0000 C CNN
+F 1 "SW_Push_Dual" H 8900 4644 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 8900 4650 50  0001 C CNN
+F 3 "~" H 8900 4650 50  0001 C CNN
+	1    8900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D6
+U 1 1 5F14CF02
+P 8900 4000
+F 0 "D6" H 8900 4217 50  0000 C CNN
+F 1 "1N4001" H 8900 4126 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 8900 3825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8900 4000 50  0001 C CNN
+	1    8900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5F14DB30
+P 9950 4450
+F 0 "SW8" H 9950 4735 50  0000 C CNN
+F 1 "SW_Push_Dual" H 9950 4644 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 9950 4650 50  0001 C CNN
+F 3 "~" H 9950 4650 50  0001 C CNN
+	1    9950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D8
+U 1 1 5F14DB36
+P 9950 4000
+F 0 "D8" H 9950 4217 50  0000 C CNN
+F 1 "1N4001" H 9950 4126 50  0000 C CNN
+F 2 "Diode_THT:D_T-1_P5.08mm_Horizontal" H 9950 3825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9950 4000 50  0001 C CNN
+	1    9950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2300 6850 2800
+Wire Wire Line
+	6850 2800 6800 2800
+Wire Wire Line
+	5850 3550 5850 4000
+Wire Wire Line
+	5850 4000 5800 4000
+Wire Wire Line
+	6750 4600 6750 5050
+Wire Wire Line
+	6750 5050 6700 5050
+Wire Wire Line
+	7750 3900 7750 3450
+Wire Wire Line
+	7750 3450 7800 3450
+Wire Wire Line
+	8700 4450 8700 4000
+Wire Wire Line
+	8700 4000 8750 4000
+Wire Wire Line
+	9750 4450 9750 4000
+Wire Wire Line
+	9750 4000 9800 4000
+Wire Wire Line
+	9750 2750 9750 2550
+Wire Wire Line
+	9750 2550 9750 2100
+Wire Wire Line
+	9750 2100 9800 2100
+Connection ~ 9750 2550
+Wire Wire Line
+	8600 2600 8600 2150
+Wire Wire Line
+	8600 2150 8650 2150
+Wire Wire Line
+	6200 4000 7200 4000
+Wire Wire Line
+	7200 4000 7200 3300
+Wire Wire Line
+	7200 3000 7200 2800
+Connection ~ 7200 3000
+Wire Wire Line
+	7200 3000 9000 3000
+Wire Wire Line
+	9000 3000 10150 3000
+Connection ~ 9000 3000
+Wire Wire Line
+	7100 5050 8150 5050
+Wire Wire Line
+	8150 5050 8450 5050
+Connection ~ 8150 5050
+Wire Wire Line
+	9100 5050 10150 5050
+Connection ~ 9100 5050
+Wire Wire Line
+	7050 4600 7050 3550
+Wire Wire Line
+	8100 3450 8100 2300
+Wire Wire Line
+	8100 2300 7700 2300
+Wire Wire Line
+	9050 4000 9250 4000
+Wire Wire Line
+	9250 4000 9250 2150
+Wire Wire Line
+	9250 2150 8950 2150
+Wire Wire Line
+	10100 4000 10400 4000
+Wire Wire Line
+	10400 4000 10400 3200
+Wire Wire Line
+	10400 2100 10100 2100
+$Comp
+L power:Earth #PWR0101
+U 1 1 5F179E49
+P 4700 4100
+F 0 "#PWR0101" H 4700 3850 50  0001 C CNN
+F 1 "Earth" H 4700 3950 50  0001 C CNN
+F 2 "" H 4700 4100 50  0001 C CNN
+F 3 "~" H 4700 4100 50  0001 C CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0102
+U 1 1 5F17EDA6
+P 4200 1600
+F 0 "#PWR0102" H 4200 1350 50  0001 C CNN
+F 1 "Earth" H 4200 1450 50  0001 C CNN
+F 2 "" H 4200 1600 50  0001 C CNN
+F 3 "~" H 4200 1600 50  0001 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0103
+U 1 1 5F185C22
+P 5950 1850
+F 0 "#PWR0103" H 5950 1600 50  0001 C CNN
+F 1 "Earth" H 5950 1700 50  0001 C CNN
+F 2 "" H 5950 1850 50  0001 C CNN
+F 3 "~" H 5950 1850 50  0001 C CNN
+	1    5950 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2050 5000 1050
+Wire Wire Line
+	5000 1050 4350 1050
+Wire Wire Line
+	4350 1050 4350 1250
+Wire Wire Line
+	4350 1350 4200 1350
+Wire Wire Line
+	4200 1350 4200 1600
+Wire Wire Line
+	5100 3650 5100 4100
+Wire Wire Line
+	5100 4100 4700 4100
+Wire Wire Line
+	6100 1650 5950 1650
+Wire Wire Line
+	5950 1650 5950 1850
+Wire Wire Line
+	5200 2050 5200 1950
+Wire Wire Line
+	5200 1050 6100 1050
+NoConn ~ 6100 1550
+Wire Wire Line
+	5500 2850 6450 2850
+Wire Wire Line
+	5500 2750 6600 2750
+Wire Wire Line
+	6600 2750 6600 2050
+Wire Wire Line
+	6600 2050 7700 2050
+Wire Wire Line
+	7700 2050 7700 2300
+Connection ~ 7700 2300
+Wire Wire Line
+	7700 2300 7150 2300
+Wire Wire Line
+	4700 2750 4150 2750
+Wire Wire Line
+	4150 2750 4150 5800
+Wire Wire Line
+	4150 5800 8450 5800
+Wire Wire Line
+	8450 5800 8450 5050
+Connection ~ 8450 5050
+Wire Wire Line
+	8450 5050 9100 5050
+Wire Wire Line
+	6100 1450 5750 1450
+Wire Wire Line
+	5750 1450 5750 2650
+Wire Wire Line
+	5750 2650 5500 2650
+Wire Wire Line
+	5500 3250 5850 3250
+Wire Wire Line
+	5850 3250 5850 1150
+Wire Wire Line
+	5850 1150 6100 1150
+Wire Wire Line
+	6100 1350 5650 1350
+Wire Wire Line
+	5650 1350 5650 3150
+Wire Wire Line
+	5650 3150 5500 3150
+Wire Wire Line
+	5500 3050 6650 3050
+Wire Wire Line
+	6650 3050 6650 3300
+Wire Wire Line
+	6650 3300 7200 3300
+Connection ~ 7200 3300
+Wire Wire Line
+	7200 3300 7200 3000
+Wire Wire Line
+	5500 2950 5600 2950
+Wire Wire Line
+	5600 2950 5600 1250
+Wire Wire Line
+	5600 1250 6100 1250
+Wire Wire Line
+	5500 2550 6350 2550
+Wire Wire Line
+	6500 2550 6500 1950
+Wire Wire Line
+	6500 1950 9250 1950
+Wire Wire Line
+	9250 1950 9250 2150
+Connection ~ 9250 2150
+NoConn ~ 4700 2850
+NoConn ~ 4700 2450
+NoConn ~ 5500 2350
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5F132E71
+P 6300 1350
+F 0 "J2" H 6380 1392 50  0000 L CNN
+F 1 "Conn_01x07" H 6380 1301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 6300 1350 50  0001 C CNN
+F 3 "~" H 6300 1350 50  0001 C CNN
+	1    6300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3550 6200 3550
+Wire Wire Line
+	6450 2850 6450 3200
+Wire Wire Line
+	6450 3200 10400 3200
+Connection ~ 10400 3200
+Wire Wire Line
+	10400 3200 10400 2100
+Wire Wire Line
+	6200 2450 6200 3550
+Wire Wire Line
+	6200 2450 6150 2450
+Connection ~ 6200 3550
+Wire Wire Line
+	6200 3550 7050 3550
+$Comp
+L Device:R 10k1
+U 1 1 5F3793F2
+P 6150 2100
+F 0 "10k1" H 6220 2146 50  0000 L CNN
+F 1 "R" H 6220 2055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6080 2100 50  0001 C CNN
+F 3 "~" H 6150 2100 50  0001 C CNN
+	1    6150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R 10k2
+U 1 1 5F37A711
+P 6350 2100
+F 0 "10k2" H 6420 2146 50  0000 L CNN
+F 1 "R" H 6420 2055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6280 2100 50  0001 C CNN
+F 3 "~" H 6350 2100 50  0001 C CNN
+	1    6350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2600 9000 3000
+Wire Wire Line
+	10150 2550 10150 3000
+Wire Wire Line
+	8150 3900 8150 5050
+Wire Wire Line
+	9100 4450 9100 5050
+Wire Wire Line
+	10150 4450 10150 5050
+Wire Wire Line
+	6150 1950 5200 1950
+Connection ~ 5200 1950
+Wire Wire Line
+	5200 1950 5200 1050
+Wire Wire Line
+	6150 2250 6150 2450
+Connection ~ 6150 2450
+Wire Wire Line
+	6150 2450 5500 2450
+Wire Wire Line
+	6150 1950 6350 1950
+Connection ~ 6150 1950
+Wire Wire Line
+	6350 2250 6350 2550
+Connection ~ 6350 2550
+Wire Wire Line
+	6350 2550 6500 2550
+$EndSCHEMATC
